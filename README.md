@@ -46,25 +46,25 @@ Python Chat serves as a practical example of networked communication, showcasing
 
    - Send a message to a specific user:
      ```bash
-     <message>username Hello, how are you?
+     <set_msg>username Hello, how are you?
      ```
 
    - Broadcast a message to everyone in the chat:
      ```bash
-     <broadcast>Hello, everyone!
+     <set_msg_all>Hello, everyone!
      ```
 
 - **Downloading Files:** Users can access shared files on the server. Simply specify the file name within triangular brackets to initiate the download.
 
    ```bash
-   <download>file.txt
+   <download>file.py
    ```
 
 - **Listing Users and Files:** Retrieve lists of chat participants and available files in the current folder using the following commands:
 
    - List of Users:
      ```bash
-     <listusers>
+     <get_users>
      ```
 
    - List of Files:
