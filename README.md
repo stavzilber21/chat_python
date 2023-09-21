@@ -1,9 +1,9 @@
-#Python Chat
+## Python Chat
 
-Description
+## Description
 Python Chat is a real-time communication platform designed for users to engage in conversations, reminiscent of popular messaging apps like WhatsApp. This project demonstrates the fundamental relationship between a server and multiple clients within a chat application.
 
-Key Features:
+## Key Features:
 
 Server-Client Architecture: The project highlights the essential client-server model, emphasizing how clients rely on an active server to connect to the chat.
 Simultaneous Connections: Python Chat supports multiple clients, enabling several users to connect concurrently and engage in real-time conversations.
@@ -25,13 +25,13 @@ Python Chat serves as a practical example of networked communication, showcasing
 1. **Server Setup:** To initiate the chat, you must first run the server by executing the `server.py` file. Ensure that the server is up and running before proceeding to connect clients.
 
    ```bash
-   python server.py
+   python _server.py
    ```
 
 2. **Client Connection:** Each user/client will require a separate command prompt (cmd) window. For each client, open a new cmd window and execute the `client.py` file.
 
    ```bash
-   python client.py
+   python _client.py
    ```
 
 ### Interacting with the Chat
@@ -69,9 +69,12 @@ Python Chat serves as a practical example of networked communication, showcasing
 
    - List of Files:
      ```bash
-     <listfiles>
+     <get_list_file>
      ```
 
 These instructions provide a step-by-step guide on how to run the server and clients and interact effectively within the chat environment.
 
---- 
+## Contact
+   If you have any questions, suggestions, or need assistance with Python Chat, please feel free to reach out to me at:
+
+   Email: stavzilber@gmail.com
